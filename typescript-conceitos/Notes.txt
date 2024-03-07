@@ -1,0 +1,2 @@
+- Rodar tsc (typescript compiler, o tsc só compila)
+- Rodar node "arquivo" da pasta dist
