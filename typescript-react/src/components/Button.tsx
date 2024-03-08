@@ -11,8 +11,8 @@ interface ButtonProps {
   children?: ReactNode;
 }
 
-const Button: FunctionComponent<ButtonProps> = () => {
-  return <button></button>;
+const Button: FunctionComponent<ButtonProps> = ({ children }) => {
+  return <button>{children}</button>;
 };
 
 export default Button;
