@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 // Components
@@ -19,6 +19,10 @@ function Header() {
   const productsCount = useSelector(selectProductsCount);
 
   const dispatch = useDispatch();
+
+  // const selectProductsCount = (rootReducer) => {
+  //   return products.reduce((acc, curr) => acc + curr.quantity, 0);
+  // };
 
   const handleCartClick = () => {
     setCartIsVisible(true);

@@ -6,8 +6,7 @@ import CustomButton from '../custom-button/index';
 // Styles
 import * as Styles from './styles';
 import { addProductToCart } from '../../redux/cart/actions';
-
-// Utilities
+import { addProduct } from '../../redux/cart/slice';
 
 const ProductItem = ({ product }) => {
   const dispatch = useDispatch();
@@ -15,6 +14,10 @@ const ProductItem = ({ product }) => {
   const handleProductClick = () => {
     dispatch(addProductToCart(product));
   };
+
+  // const handleProductClick = () => {
+  //   dispatch(addProduct(product));
+  // };
 
   return (
     <Styles.ProductContainer>
