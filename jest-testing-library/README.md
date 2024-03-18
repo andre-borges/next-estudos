@@ -1,4 +1,4 @@
-## React Hooks
+## Testes no React com Jest & Testing Library
 
 https://www.youtube.com/watch?v=0hVXjqHwvI0&t=3058s
 
