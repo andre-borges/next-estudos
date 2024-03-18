@@ -1,0 +1,18 @@
+Tipos de Testes: Testes Unitários
+- São testes onde testamos apenas um componente/unidade de código
+- Nesses testes, não chamamos agentes externos, como APIs
+- Caso este seja o caso, efetuaremos um mock desse agente (API)
+
+Tipos de Testes: Testes de Integração
+- São testes onde testamos apenas dois ou mais componentes trabalhando em conjunto
+- Nesses testes, também realizamos mocks de agentees externos
+
+Tipos de Testes: Testes E2E
+- São testes onde testamos fluxos completos de usuário
+- Nesses etstes, nos comunicamos com APIs e bancos de dados realizamos
+- Podem levar muito mais tempo para serem executados, dependendo do fluxo testado
+- Uma ferramenta bem popular é o Cypress
+
+https://jestjs.io/pt-BR/docs/using-matchers
+
+https://mswjs.io/docs/getting-started
